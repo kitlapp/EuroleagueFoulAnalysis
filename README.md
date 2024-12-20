@@ -1,21 +1,39 @@
-# euroleague_fouls  
-May is a Euroleague basketball competition month as it includes play-offs and the final four. As a devoted Euroleague fan, this period motivated me to start this project. In contrast to my previous projects, this created entirely from scratch in terms of the idea and the way the idea is expressed throughout the project. In addition, it was a great opportunity to apply hypothesis testing continuing to demonstrate some Inferential Statistics concepts (I presented the application of confidence intervals in my previous project "confidence_intervals").
+# Euroleague Foul Drawn Analysis & Application of Hypothesis Testing
+May is an exciting month for Euroleague basketball, as it features the play-offs and the Final Four. As a devoted Euroleague fan, this inspired me to start this project. The project was created entirely from scratch, including data collection, which I performed manually. Additionally, it served as an excellent opportunity to apply hypothesis testing, furthering my exploration of Inferential Statistics and concluding my self-study in statistics.
 
-The project aims to provide insights into player fouling behaviors, trends over seasons, etc. The analysis includes only the seasons of the last Euroleague format, which applies from the season 2016-2017 to this day. However, I have not yet collected the data from all seasons. This is a large project where a lot of data frames and visualizations have been created. It needed Data Collection, Data Cleaning, Feature Engineering and Exploratory Data Analysis-Descriptive Statistics. Additionally, I applied a simple T-Hypothesis Test in the average scaled fouls per 40 minutes per season to compare the historical mean with the season's 2023-2024 mean.
+The project aims to provide insights into player fouling behaviors, trends over seasons, and other related patterns. The analysis focuses on the seasons from the last Euroleague format, implemented in the 2016-2017 season to the present day. However, I have not yet collected data from all seasons. This is a large-scale project involving extensive data manipulation and visualization. It includes the following processes:
+1. Data Collection
+2. Data Cleaning
+3. Feature Engineering
+4. Exploratory Data Analysis (EDA) / Descriptive Statistics
+5. Application of a simple T-Hypothesis Test to compare the average scaled fouls per 40 minutes of the 2023-2024 season with the historical mean.
 
-Files included in this repo:
-1) There are 5 Excel Datafiles from Euroleague seasons 2019-2020, 2020-2021, 2021-2022, 2022-2023, 2023-2024.
-2) The Jupyter Notebook where my project is developped.
+## DATA COLLECTION:
+Foul data was collected from the following sources: 
+1. https://basketnews.com/leagues/25-euroleague/statistics.html
+2. https://www.euroleaguebasketball.net/euroleague/?geoip=disabled
 
-Data Collection:
-I collected the foul data from https://basketnews.com/leagues/25-euroleague/statistics.html and https://www.euroleaguebasketball.net/euroleague/?geoip=disabled sites, organizing them in Excel files.
+The data was organized and stored in Excel files for analysis.
 
-What I gained from this project:
-1) I applied my knowledge for the first time to a domain that I have expertise and I am completely enjoying being busy with.
-2) All done from scratch: Data Collection, the development of thinking concepts throughout the project, the application of T-Test, etc.
-3) Given the opportunity to apply Feature Engineering in my data understanding that total fouls per season consist of raw data which should be appropriately scaled. 
-4) I completed my Inferential Statistics studies practically applying a hypothesis test into the data.
+## FILES INCLUDED:
+1. Foul data files from the last 5 seasons in .xlsx form X 5
+2. Visualizations in .png form X 21
+3. The core project .ipynb main file X 1
+4. The README file
 
-I hope you will enjoy it!
+--> 27 Files in Total <--
 
-Thank you!
+## HOW TO SET UP THE ENVIRONMENT
+1. Download the project as a zip file or clone the repository to your local machine.
+2. Open Anaconda Prompt and type:
+   --> conda create --name 'YourEnvName' python=3.11.9 pandas=2.2.1 numpy=1.26.4 matplotlib=3.8.4 seaborn=0.12.2 scipy=1.13.0 plotly=5.22.0 jupyter=1.0.0 -c conda-forge
+3. Activate the newly-created environment.
+4. Launch Jupyter via Anaconda Prompt.
+5. Open the project's Jupyter named 'main'.
+6. Enjoy!
+
+--> Thanks for your time! Feel free to connect with me on LinkedIn: linkedin.com/in/kimon-ioannis-lappas!!! <--
+
+
+
+
